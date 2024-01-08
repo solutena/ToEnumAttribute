@@ -23,7 +23,7 @@ public class Item : MonoBehaviour
 }
 ```
 
-![image](https://github.com/solutena/ToEnumAttribute/assets/22467083/1ca747bf-ceea-417f-80cf-3190b27b8180)
+![image](https://github.com/solutena/ToEnumAttribute/assets/22467083/dcc3cef7-8067-49ed-b130-cbcc7239d56f)
 
 ## 활용
 
