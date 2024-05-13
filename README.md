@@ -2,7 +2,7 @@
 
 인스펙터에서
 
-string 타입을 지정한 enum 형식으로 보여주는 어트리뷰트이다.
+string 타입을 지정한 enum 형식으로 보여주는 어트리뷰트입니다.
 
 ## 예제
 
@@ -29,7 +29,7 @@ public class Item : MonoBehaviour
 
 meta 파일에는 string으로 저장되기 때문에
 
-enum의 중간에 값을 추가해도 값이 변하지 않는다.
+enum의 중간에 값을 추가해도 값이 변하지 않습니다.
 
 ```
 public enum ItemType
