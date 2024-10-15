@@ -6,7 +6,7 @@ string 타입을 지정한 enum 형식으로 보여주는 어트리뷰트입니�
 
 ## 예제
 
-```
+```csharp
 public enum ItemType
 {
 	Weapon,
@@ -16,7 +16,7 @@ public enum ItemType
 ```
 
 
-```
+```csharp
 public class Item : MonoBehaviour
 {
 	[ToEnum(typeof(ItemType))] public string itemType;
@@ -31,7 +31,7 @@ meta 파일에는 string으로 저장되기 때문에
 
 enum의 중간에 값을 추가해도 값이 변하지 않습니다.
 
-```
+```csharp
 public enum ItemType
 {
 	None, //추가
@@ -40,7 +40,7 @@ public enum ItemType
 	Armor
 }
 ```
-```
+```csharp
 public class Item : MonoBehaviour
 {
 	[ToEnum(typeof(ItemType))] public string stringType;
