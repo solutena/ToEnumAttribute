@@ -1,0 +1,18 @@
+{
+    "name": "ToEnumAttributeDrawer",
+    "rootNamespace": "",
+    "references": [
+        "GUID:773a88da83f6ccb42bb4b56a940cf2d3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
