@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEditor;
 
-namespace UnityEditor.Timeline
+namespace UnityEditor
 {
 	[CustomPropertyDrawer(typeof(ToEnumAttribute))]
 	public class ToEnumAttributeDrawer : PropertyDrawer
