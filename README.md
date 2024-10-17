@@ -30,23 +30,16 @@ public enum ItemType
 }
 ```
 
-
 ```csharp
 public class Item : MonoBehaviour
 {
 	[ToEnum(typeof(ItemType))] public string itemType;
-
-	//코드에서는 Enum으로 사용
-	public ItemType ItemType => Enum.Parse<ItemType>(itemType);
 }
 ```
 
 ![image](https://github.com/solutena/ToEnumAttribute/assets/22467083/dcc3cef7-8067-49ed-b130-cbcc7239d56f)
 
-enum을 string형식으로 선언 한 후
-[ToEnum(typeof(`Enum`))] 을 추가
-
-## 활용
+enum을 string형식으로 선언 한 후 [ToEnum(typeof(`Enum`))] 을 추가
 
 meta 파일에는 string으로 저장되기 때문에
 
@@ -76,3 +69,16 @@ public class Item : MonoBehaviour
 ### None타입 추가 후
 
 ![image](https://github.com/solutena/ToEnumAttribute/assets/22467083/5ed56c08-1d40-4e7d-b698-6f17e1313f72)
+
+## 활용
+
+```csharp
+public class Item : MonoBehaviour
+{
+	[ToEnum(typeof(ItemType))] public string itemType;
+
+	public ItemType ItemType => Enum.Parse<ItemType>(itemType);
+}
+```
+
+코드에서 Enum으로 사용 할 땐 속성을 추가합니다.
