@@ -5,7 +5,7 @@
 string 타입을 지정한 enum 형식으로 보여주는 어트리뷰트입니다.
 
 
-## 설치
+# 설치
 
 ![image](https://github.com/user-attachments/assets/4474a28d-565e-4a10-b867-a3721588660b)
 
