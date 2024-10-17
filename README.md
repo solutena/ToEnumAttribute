@@ -4,6 +4,21 @@
 
 string 타입을 지정한 enum 형식으로 보여주는 어트리뷰트입니다.
 
+
+## 설치
+
+![image](https://github.com/user-attachments/assets/4474a28d-565e-4a10-b867-a3721588660b)
+
+1. URL 복사
+
+![image](https://github.com/user-attachments/assets/f4060f1d-94aa-4a49-b001-e7a5e01316e1)
+
+2. 패키지 매니저에서 Add Package from Git URL 선택
+
+![image](https://github.com/user-attachments/assets/dccb91d5-8c9d-495c-87bf-04b9787e7d63)
+
+3.  복사한 URL로 설치
+
 ## 예제
 
 ```csharp
@@ -24,6 +39,9 @@ public class Item : MonoBehaviour
 ```
 
 ![image](https://github.com/solutena/ToEnumAttribute/assets/22467083/dcc3cef7-8067-49ed-b130-cbcc7239d56f)
+
+enum을 string형식으로 선언 한 후
+[ToEnum(typeof(`Enum`))] 을 추가
 
 ## 활용
 
