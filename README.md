@@ -35,6 +35,9 @@ public enum ItemType
 public class Item : MonoBehaviour
 {
 	[ToEnum(typeof(ItemType))] public string itemType;
+
+	//코드에서는 Enum으로 사용
+	public ItemType ItemType => Enum.Parse<ItemType>(itemType);
 }
 ```
 
