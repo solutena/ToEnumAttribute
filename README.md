@@ -1,9 +1,6 @@
 # ToEnumAttribute
 
-인스펙터에서
-
-string 타입을 지정한 enum 형식으로 보여주는 어트리뷰트입니다.
-
+인스펙터에서 string 타입을 지정한 enum 형식으로 보여주는 어트리뷰트입니다.
 
 # 설치
 
@@ -82,3 +79,12 @@ public class Item : MonoBehaviour
 ```
 
 코드에서 Enum으로 사용 할 땐 속성을 추가합니다.
+
+```C#
+public class Item : MonoBehaviour
+{
+	[ToEnum(typeof(ItemType))] public List<string> list;
+	[ToEnum(typeof(ItemType))] public string[] array;
+}
+```
+리스트와 배열을 지원합니다.
