@@ -74,7 +74,7 @@ public class Item : MonoBehaviour
 {
 	[ToEnum(typeof(ItemType))] public string itemType;
 
-	public ItemType ItemType => Enum.Parse<ItemType>(itemType);
+	public ItemType ItemType => Enum.TryParse(itemType, out ItemType result) ? result : ItemType.None;
 }
 ```
 
